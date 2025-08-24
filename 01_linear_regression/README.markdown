@@ -361,7 +361,8 @@ donde:
 El objetivo es **minimizar el error cuadrático medio** (MSE). La función de costo es:
 
 $$
-\mathcal{L}(\beta) = \sum_{i=1}^{N} (y_i - \hat{y}_i)^2 = \sum_{i=1}^{N} \left( y_i - \beta_0 - \sum_{j=1}^{p} \beta_j x_{ij} \right)^2
+\mathcal{L}(\beta) = \sum_{i=1}^{N} (y_i - \hat{y}_i)^2
+= \sum_{i=1}^{N} \left( y_i - \beta_0 - \sum_{j=1}^{p} \beta_j x_{ij} \right)^2
 $$
 
 > OLS encuentra los $\beta$ que **minimizan la suma de errores al cuadrado**.
