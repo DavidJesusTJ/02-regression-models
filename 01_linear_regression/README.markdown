@@ -136,10 +136,7 @@ El intercepto es el valor esperado de $Y$ cuando **todas las variables $x_j = 0$
 Cada coeficiente $\beta_j$ viene acompañado de:
 
 - Un **error estándar (SE)**  
-- Un **estadístico t**:  
-  $$
-  t_j = \frac{\beta_j}{SE(\beta_j)}
-  $$
+- Un **estadístico t**:  $t_j = \frac{\beta_j}{SE(\beta_j)}$
 - Un **p-valor**: mide si el efecto de $x_j$ es significativamente distinto de 0.  
 
 > Si el p-valor < 0.05, se considera que $x_j$ tiene un efecto significativo sobre $Y$.
