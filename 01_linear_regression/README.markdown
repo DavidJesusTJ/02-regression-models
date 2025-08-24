@@ -138,7 +138,7 @@ Cada coeficiente $\beta_j$ viene acompañado de:
 - Un **error estándar (SE)**  
 - Un **estadístico t**:  
   $$
-  t_j = \dfrac{\beta_j}{SE(\beta_j)}
+  t_j = \frac{\beta_j}{SE(\beta_j)}
   $$
 - Un **p-valor**: mide si el efecto de $x_j$ es significativamente distinto de 0.  
 
